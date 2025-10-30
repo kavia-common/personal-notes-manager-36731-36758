@@ -1,61 +1,20 @@
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
-*.py[cod]
-*$py.class
+*.pyc
+*.pyo
+*.pyd
+.build/
+.venv/
+env/
+venv/
+ENV/
 
-# C extensions
-*.so
-
-# Environment variables file
-.env
-
-# Flask instance folder
-instance/
-.webassets-cache
-
-# Pytest cache
-.pytest_cache/
-
-# VS Code settings
+# VSCode
 .vscode/
 
-# mypy
-.mypy_cache/
-
-# PyCharm settings
-.idea/
-
-# SQLite database
-*.sqlite3
+# SQLite
 *.db
+*.sqlite3
 
-# Coverage reports
-htmlcov/
-.coverage
-coverage.xml
-*.cover
-*.py,cover
-
-# Virtualenv
-venv/
-env/
-ENV/
-.venv/
-.ENV/
-
-# Docker
-*.log
-docker-compose.override.yml
-
-# Build artifacts
-build/
-dist/
-*.egg-info/
-
-# Sphinx documentation
-docs/_build/
-
-# macOS
-.DS_Store
-
-openapi.json
+# Env files
+.env
